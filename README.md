@@ -1,13 +1,11 @@
 # Manuales de Depósito y Logística
 
-Edición documental 1.0 — 28/09/2026.
+Edición documental 1.1 — 28/09/2026.
 
-Portal de ingreso por puesto: Encargado, Controlador y Operario de Picking y Armado. Incluye inducción, controles imprimibles, situaciones frecuentes y guías de sistemas.
+Portal por puesto, ruta de relevo del Encargado, guías breves y 10 videos vinculados por tarea. La fuente es la carpeta local 03_LOGISTICA/01_ACCESO_PERSONAL; este repositorio es su distribución web. index.html debe coincidir con INICIO.html.
 
-La fuente documental está en la carpeta local 03_LOGISTICA/01_ACCESO_PERSONAL. Este repositorio contiene su distribución web. Para actualizar, copiar los HTML y estilos.css desde la fuente; index.html debe ser idéntico a INICIO.html. No editar ambas copias por separado.
+Los videos son grabaciones históricas ya alojadas en este repositorio. Se conservan sin modificar; las reglas actuales se explican al lado. No constituyen capacitación completa ni habilitación. Faltan demostraciones de remito final, planillas, recepción/importaciones y tareas físicas.
 
-Revisar enlaces locales, anclas, lectura móvil y reglas antes de publicar. No incluir registros privados, evaluaciones, fuentes de campo ni datos operativos de personas o clientes.
+El paquete offline incluye videos. Los recursos operativos y permisos deben entregarse de forma privada: no se publican evaluaciones, pendientes reales, contraseñas ni planillas con datos de clientes. GitHub Pages es público, no controla acceso. Los videos existentes contienen pantallas operativas; la empresa debe evaluar su alojamiento restringido. No se amplió el conjunto de grabaciones públicas.
 
-Las carpetas capturas y videos son material histórico de la edición 0.2 y no se enlazan desde la nueva portada. Siguen disponibles por URL directa y en el historial del repositorio; quitar enlaces no restringe acceso. La revisión o retirada de esos archivos se gestiona por separado.
-
-La edición identifica el contenido entregado, no acredita aprobación empresarial de todos los formatos ni habilitación del personal. Las tareas incompletas se realizan con tutor.
+Revisar vínculos, reproducción, móvil y reglas antes de distribuir. Actualizar fuente y copia web juntas; conservar edición anterior.
