@@ -1,11 +1,13 @@
 # Manuales de Depósito y Logística
 
-Edición documental 1.1 — 28/09/2026.
+Edición 1.2 — 30/09/2026.
 
-Portal por puesto, ruta de relevo del Encargado, guías breves y 10 videos vinculados por tarea. La fuente es la carpeta local 03_LOGISTICA/01_ACCESO_PERSONAL; este repositorio es su distribución web. index.html debe coincidir con INICIO.html.
+Navegación por intención: aprender, jornada, buscar tarea, resolver problema, videos y recursos. Doce fichas de tarea, diez videos existentes, controles y rutas para tres puestos.
 
-Los videos son grabaciones históricas ya alojadas en este repositorio. Se conservan sin modificar; las reglas actuales se explican al lado. No constituyen capacitación completa ni habilitación. Faltan demostraciones de remito final, planillas, recepción/importaciones y tareas físicas.
+La fuente de contenido es 03_LOGISTICA/01_ACCESO_PERSONAL. Este repositorio es su distribución web; index.html coincide con INICIO.html. Funciona offline. La búsqueda mejora el índice; si JavaScript falla, todas las tareas siguen visibles.
 
-El paquete offline incluye videos. Los recursos operativos y permisos deben entregarse de forma privada: no se publican evaluaciones, pendientes reales, contraseñas ni planillas con datos de clientes. GitHub Pages es público, no controla acceso. Los videos existentes contienen pantallas operativas; la empresa debe evaluar su alojamiento restringido. No se amplió el conjunto de grabaciones públicas.
+Cada tarea vive en tarea-*.html. Los índices y el aprendizaje enlazan a ella. Evitar copiar instrucciones completas en otra página. Conservar las anclas históricas de guias.html y relevo.html para enlaces anteriores.
 
-Revisar vínculos, reproducción, móvil y reglas antes de distribuir. Actualizar fuente y copia web juntas; conservar edición anterior.
+La edición 1.2 corrige un bloque de impresión sin cerrar que impedía aplicar los estilos de video en pantalla. Los reproductores usan una caja de proporción fija de hasta 360 px. Los videos 04 y 08 optimizados en el remoto se conservaron.
+
+No hay accesos reales ni planillas operativas nuevas en esta entrega. La demostración del remito final, importaciones y altas sigue pendiente con tutor. La web es pública y los videos existentes contienen pantallas operativas. Mantener registros personales de capacitación y traspaso fuera de la distribución pública.
