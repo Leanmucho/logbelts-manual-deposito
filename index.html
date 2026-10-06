@@ -1,15 +1,62 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aprendé el puesto. Resolvé el día. · Logbelts</title><link rel="stylesheet" href="estilos.css?v=1.2"></head>
-<body><a class="skip" href="#contenido">Ir al contenido</a>
-<header><div class="brandbar"><a class="brand" href="INICIO.html">LOGBELTS <span>Guía de depósito</span></a><span class="edition">Manual por puesto</span></div>
-<nav class="main-nav" aria-label="Navegación principal"><a href="relevo.html">Estoy aprendiendo</a>
-<a href="encargado.html">Mi jornada</a>
-<a href="guias.html">Buscar una tarea</a>
-<a href="situaciones.html">Tengo un problema</a>
-<a href="recursos.html">Videos y recursos</a></nav></header>
-<main id="contenido"><h1>Aprendé el puesto. Resolvé el día.</h1><p class="intro">Elegí tu puesto para encontrar qué hacer, cómo hacerlo y a quién consultar.</p>
-<section class="hero-panel"><span class="eyebrow">ENCARGADO/A DE DEPÓSITO</span><h2>Tu punto de partida</h2><p>Pedidos, equipo, documentación y stock.</p><div class="choices"><a class="choice primary" href="relevo.html"><strong>Estoy empezando</strong><span>Mi primer recorrido con el tutor →</span></a><a class="choice" href="encargado.html"><strong>Ya estoy trabajando</strong><span>Ver las tareas de mi jornada →</span></a></div></section>
-<section><h2>Necesito encontrar algo ahora</h2><div class="quick-links"><a href="guias.html">Buscar una tarea →</a><a href="situaciones.html">Resolver un problema →</a><a href="recursos.html">Encontrar un video o recurso →</a></div></section>
-<section><h2>Otros puestos del depósito</h2><div class="cards"><a class="card" href="operario.html"><h3>Picking y armado</h3><p>Buscar, contar y empacar →</p></a><a class="card" href="controlador.html"><h3>Controlador</h3><p>Controlar pedido, bultos y carga →</p></a></div></section></main>
-<footer><p>Edición 1.2 · 30/09/2026 · Consultas del puesto: tutor o Encargado/a de Depósito.</p><p><a href="INICIO.html">Cambiar de puesto</a> · <a href="controles.html">Controles para imprimir</a></p></footer></body></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Manual práctico de inducción para los puestos de Depósito y Logística de Logbelts.">
+  <title>Manual de inducción · Depósito y Logística · Logbelts</title>
+  <link rel="stylesheet" href="estilos.css?v=2">
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <div class="brandbar"><a class="brand" href="index.html">LOGBELTS <span>Manual de Depósito y Logística</span></a><span class="edition">Inducción por puesto</span></div>
+    <nav class="main-nav" aria-label="Puestos"><a href="valentina.html">Encargada de depósito</a><a href="controlador.html">Controlador</a><a href="picking.html">Picking y armado</a></nav>
+  </header>
+  <main id="contenido">
+    <p class="eyebrow">DEPÓSITO Y LOGÍSTICA</p>
+    <h1>Del pedido aprobado a la salida</h1>
+    <p class="intro">Una guía de trabajo para entender el recorrido completo y encontrar, por puesto, los pasos de cada tarea.</p>
+
+    <section class="hero-grid" aria-labelledby="flujo-titulo">
+      <div class="hero-copy"><h2 id="flujo-titulo">Así se mueve un pedido</h2><p>El depósito recibe un pedido aprobado, prepara los artículos, verifica cantidades, emite la documentación y controla la carga antes de la salida.</p><a class="button" href="#puestos">Elegir mi puesto <span aria-hidden="true">↓</span></a></div>
+      <figure class="diagram"><img src="assets/flujo-pedido.svg" alt="Secuencia: autorización y hoja, picking y armado, control, documentación y carga, salida."><figcaption>Recorrido general del pedido entre los tres puestos.</figcaption></figure>
+    </section>
+
+    <section aria-labelledby="puestos">
+      <div class="section-heading"><p class="eyebrow">TRES PUESTOS, UN MISMO RECORRIDO</p><h2 id="puestos">¿Qué parte del trabajo hacés?</h2><p>Elegí un puesto para ver primero el proceso en simple y, dentro de cada tarea, el detalle paso a paso.</p></div>
+      <div class="role-grid">
+        <a class="role-card role-valentina" href="valentina.html"><span class="role-num">01</span><h3>Encargada de depósito</h3><p>Puesto que hoy ocupa Valentina. Organiza el día, libera y documenta pedidos, gestiona stock y coordina la salida.</p><span class="card-link">Ver procesos del puesto <b aria-hidden="true">→</b></span></a>
+        <a class="role-card role-control" href="controlador.html"><span class="role-num">02</span><h3>Controlador de depósito</h3><p>Comprueba pedido y bultos. Verifica la documentación y controla que la carga coincida con lo autorizado.</p><span class="card-link">Ver procesos del puesto <b aria-hidden="true">→</b></span></a>
+        <a class="role-card role-picking" href="picking.html"><span class="role-num">03</span><h3>Picking y armado</h3><p>Busca los artículos por ubicación, prepara las cantidades reales, empaca e identifica cada pedido.</p><span class="card-link">Ver procesos del puesto <b aria-hidden="true">→</b></span></a>
+      </div>
+    </section>
+
+    <section class="handoff" aria-labelledby="entregas">
+      <div><p class="eyebrow">PUNTOS DE ENTREGA ENTRE PUESTOS</p><h2 id="entregas">Cada cambio de manos se comprueba</h2><ul class="handoff-list"><li><b>Encargada → Picking:</b> pedido aprobado, hoja legible, ubicaciones, forma de envío y prioridad.</li><li><b>Picking → Controlador:</b> mercadería reunida con la hoja y cantidades realmente preparadas.</li><li><b>Controlador → Encargada:</b> diferencias detectadas y pedido listo para seguir cuando el control cierra.</li><li><b>Encargada → Controlador:</b> documentación y pedidos autorizados para cargar.</li></ul></div>
+      <figure class="diagram"><img src="assets/entregas.svg" alt="Tres puestos enlazados mediante cuatro entregas de información y mercadería."><figcaption>La persona que entrega y la que recibe verifican el mismo pedido.</figcaption></figure>
+    </section>
+
+    <section class="rules" aria-labelledby="reglas">
+      <p class="eyebrow">REGLAS QUE APLICAN A TODO EL EQUIPO</p><h2 id="reglas">Antes de seguir, comprobá esto</h2>
+      <div class="rule-grid">
+        <article><span class="rule-icon" aria-hidden="true">01</span><h3>Pedido aprobado</h3><p>No se empieza a preparar sin aprobación de Administración, Gerencia o Dirección.</p></article>
+        <article><span class="rule-icon" aria-hidden="true">02</span><h3>Código y cantidad</h3><p>Compará el código del artículo y contá lo que hay. No reemplaces por parecido.</p></article>
+        <article><span class="rule-icon" aria-hidden="true">03</span><h3>Faltantes y reemplazos</h3><p>El faltante se informa a Ventas; Ventas acuerda con el cliente cómo resolverlo.</p></article>
+        <article><span class="rule-icon" aria-hidden="true">04</span><h3>Stock y documentos</h3><p>Comprobá el comprobante y el resultado en el sistema antes de repetir una operación.</p></article>
+        <article><span class="rule-icon" aria-hidden="true">05</span><h3>Pedido cerrado</h3><p>Para un agregado se prepara otra nota de pedido aprobada. No se reabre el pedido cerrado.</p></article>
+        <article><span class="rule-icon" aria-hidden="true">06</span><h3>Salida y equipos</h3><p>El Controlador controla la carga. El autoelevador lo opera el Controlador; el picker solo en su presencia y con capacitación aplicable.</p></article>
+      </div>
+    </section>
+
+    <section class="howto" aria-labelledby="usar">
+      <p class="eyebrow">CÓMO USAR CADA GUÍA</p><h2 id="usar">Primero orientate. Después seguí el detalle.</h2>
+      <div class="howto-grid"><article><span>1</span><div><h3>Proceso normal y simple</h3><p>Leé el resumen para ubicar el inicio, la secuencia corta y el resultado esperado.</p></div></article><article><span>2</span><div><h3>Detalle a fondo</h3><p>Abrí el desplegable para ver qué preparar, qué hacer en orden, qué revisar y cómo proceder si algo difiere.</p></div></article></div>
+      <p class="note">Las guías usan los nombres de pantalla registrados en los procedimientos. Los accesos y las planillas se usan desde las ubicaciones que indique el responsable del puesto.</p>
+    </section>
+
+    <section class="glossary" aria-labelledby="palabras"><p class="eyebrow">PALABRAS DEL DEPÓSITO</p><h2 id="palabras">Unas referencias rápidas</h2><dl><div><dt>NP</dt><dd>Nota de pedido: identifica lo que solicitó el cliente.</dd></div><div><dt>Picking</dt><dd>Búsqueda y retiro de los artículos indicados en el pedido.</dd></div><div><dt>BBJet</dt><dd>Sistema donde se cargan las cantidades preparadas.</dd></div><div><dt>PalJet</dt><dd>Sistema para consultar comprobantes, existencias y movimientos, y registrar operaciones.</dd></div><div><dt>Remito</dt><dd>Documento que acompaña la mercadería que sale.</dd></div><div><dt>Ubicación</dt><dd>Referencia de rack, módulo y nivel. Ejemplo: R4-M3-N1.</dd></div></dl></section>
+  </main>
+  <footer><p>Logbelts · Depósito y Logística · Manual de inducción</p><a href="#contenido">Volver al inicio ↑</a></footer>
+</body>
+</html>
