@@ -1,10 +1,11 @@
-# Manual de inducción — Depósito y Logística
+# Manual de inducción — Depósito y Logística · Logbelts
 
-Sitio estático en español para GitHub Pages. Comenzá por `index.html` y elegí uno de los tres puestos. Cada proceso presenta una versión breve y un detalle paso a paso que se puede desplegar.
+Sitio estático (HTML, CSS, SVG y un script chico, sin dependencias) para GitHub Pages.
 
-- `valentina.html`: Encargada de depósito (puesto que hoy ocupa Valentina).
-- `controlador.html`: Controlador de depósito.
-- `picking.html`: Picking y armado.
-- `assets/`: diagramas originales de flujo, ubicación y control de bultos.
+- `index.html`: panorama general, tabla de tareas por puesto y etapa, entregas entre puestos, reglas, cierre diario y glosario.
+- `valentina.html`: Encargada de depósito (10 procesos).
+- `controlador.html`: Controlador de depósito (9 procesos, incluidos empaque y etiquetado).
+- `picking.html`: Picking y armado (7 procesos, con tareas independientes agrupadas aparte).
+- `assets/`: logo y diagramas. `estilos.css` y `app.js`: diseño y navegación.
 
-El sitio usa HTML, CSS y SVG y funciona sin dependencias externas. Las páginas de nombres anteriores redirigen a los puestos o procesos actuales. Las grabaciones originales se consultaron como referencia de proceso y no se distribuyen en esta copia pública porque las pantallas muestran datos reales de clientes y operaciones.
+Cada proceso tiene un resumen simple con secuencia ilustrada y un detalle a fondo desplegable. Los videos de apoyo se sirven desde `videos/`; se procesaron sin audio y con la imagen difuminada para proteger los datos que aparecen en las grabaciones originales.
