@@ -127,12 +127,20 @@ h3{font-size:1.05rem;margin:1.3em 0 .35em;color:var(--navy)}
 .videos{margin:16px 0 4px;background:var(--silver-soft);border-radius:12px;padding:14px 16px}
 .videos{border-left:4px solid var(--blue-line)}
 .videos h3{margin:0 0 8px;font-size:.95rem;text-transform:uppercase;letter-spacing:.05em;color:var(--navy-dark)}
-.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),420px));gap:14px}
 .video-card{background:var(--paper);border-radius:10px;padding:10px;border:1px solid var(--line)}
 .video-card iframe,.video-card video{width:100%;aspect-ratio:16/9;border:0;border-radius:8px;background:#101827;display:block}
 .video-card p{margin:8px 2px 2px;font-size:.9rem}
 .video-card a{font-weight:700}
 .video-note{font-size:.82rem;color:var(--muted);margin:8px 0 0}
+.video-summary{margin-top:10px;padding-top:8px;border-top:1px solid var(--line)}
+.video-summary p{margin:6px 2px;font-size:.88rem;line-height:1.45}
+.historical-summaries{margin:16px 0;padding:14px 16px;border-left:4px solid var(--blue-line);background:var(--silver-soft);border-radius:10px}
+.historical-summaries h3{margin:0 0 8px}
+.historical-summary{margin:10px 0 0;padding:10px 12px;background:var(--paper);border:1px solid var(--line);border-radius:8px}
+.historical-summary h4{margin:0 0 5px;color:var(--navy)}
+.historical-summary p{margin:5px 0;font-size:.9rem;line-height:1.45}
+
 .next-role{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:30px}
 .inline-diagram{margin:8px 0 14px}
 .inline-diagram img{max-width:520px;width:100%}
@@ -168,7 +176,7 @@ footer a{color:#fff}
   .matrix td::before{content:attr(data-label);display:block;font-weight:800;font-size:.75rem;color:var(--navy);text-transform:uppercase}
 }
 @media print{
-  .site-header,.role-tools,.main-nav,.proc-nav,.mode-toggle,.videos,footer{display:none!important}
+  .site-header,.role-tools,.main-nav,.proc-nav,.mode-toggle,.video-card video,footer{display:none!important}
   body{background:#fff}
   .deep{display:block}
   .process-section{box-shadow:none;border:1px solid #ccc;break-inside:avoid}
