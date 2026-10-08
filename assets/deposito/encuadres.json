@@ -1,0 +1,152 @@
+{
+  "canasto": {
+    "fuente": "canasto con productos en picking.jpeg",
+    "encuadre": [
+      0,
+      340,
+      900,
+      1050
+    ],
+    "titulo": "Artículos reunidos en canastos"
+  },
+  "pendiente": {
+    "fuente": "Canastos y picking para controlar.jpeg",
+    "encuadre": [
+      400,
+      120,
+      830,
+      650
+    ],
+    "titulo": "Pedido pendiente de control"
+  },
+  "carrito": {
+    "fuente": "carrito de picking.jpeg",
+    "encuadre": [
+      20,
+      300,
+      820,
+      970
+    ],
+    "titulo": "Carrito con pedido y hoja"
+  },
+  "etiquetas": {
+    "fuente": "etiquetas para empaques por cliente.jpeg",
+    "encuadre": [
+      160,
+      170,
+      740,
+      820
+    ],
+    "titulo": "Etiquetas para identificar los bultos"
+  },
+  "hoja": {
+    "fuente": "Hoja de pedido.jpeg",
+    "encuadre": [
+      115,
+      380,
+      720,
+      680
+    ],
+    "titulo": "Detalle de la hoja del pedido"
+  },
+  "jaula": {
+    "fuente": "jaula con pedidos ya controlados.jpeg",
+    "encuadre": [
+      95,
+      380,
+      805,
+      1050
+    ],
+    "titulo": "Bultos controlados en la jaula"
+  },
+  "costura": {
+    "fuente": "Maquina de coser para cerrar bolsas de pedidos.jpeg",
+    "encuadre": [
+      80,
+      150,
+      720,
+      850
+    ],
+    "titulo": "Máquina para cerrar bolsas"
+  },
+  "consulta": {
+    "fuente": "Mesa con maquina de deposito para consultar excel o paljet en deposito. aca hacen la ruta de pickeo buscando posiciones y demas.jpeg",
+    "encuadre": [
+      235,
+      125,
+      875,
+      430
+    ],
+    "titulo": "Puesto de consulta de ubicaciones"
+  },
+  "mesa-control": {
+    "fuente": "mesa de controlador.jpeg",
+    "encuadre": [
+      20,
+      460,
+      770,
+      530
+    ],
+    "titulo": "Mesa de control"
+  },
+  "sellado": {
+    "fuente": "Mesa para lijar correas y sellar bolsitas.jpeg",
+    "encuadre": [
+      70,
+      240,
+      830,
+      800
+    ],
+    "titulo": "Mesa de preparación y sellado"
+  },
+  "pallet": {
+    "fuente": "pallet con pedidos ya controlados y listos.jpeg",
+    "encuadre": [
+      110,
+      250,
+      665,
+      860
+    ],
+    "titulo": "Pedidos controlados y listos"
+  },
+  "altura": {
+    "fuente": "Picking en altura o buscando para hcaer reposicion.jpeg",
+    "encuadre": [
+      5,
+      90,
+      890,
+      1420
+    ],
+    "titulo": "Referencia del sector en altura"
+  },
+  "rack": {
+    "fuente": "rack modulos y numeros.jpeg",
+    "encuadre": [
+      240,
+      45,
+      1000,
+      690
+    ],
+    "titulo": "Cómo reconocer una ubicación"
+  },
+  "niveles": {
+    "fuente": "racks con productos para sacar modulo y altura.jpeg",
+    "encuadre": [
+      0,
+      160,
+      900,
+      1080
+    ],
+    "titulo": "Niveles del mismo módulo"
+  },
+  "fallados": {
+    "fuente": "seccion de rotos o fallados.jpeg",
+    "encuadre": [
+      315,
+      290,
+      580,
+      650
+    ],
+    "titulo": "Sector de rotos o fallados"
+  }
+}

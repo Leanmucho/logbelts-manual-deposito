@@ -1,4 +1,43 @@
 (function () {
+  var photoTriggers = Array.from(document.querySelectorAll('.photo-open'));
+  if (photoTriggers.length) {
+    var modal = document.createElement('dialog');
+    modal.className = 'photo-dialog';
+    modal.setAttribute('aria-labelledby', 'photo-dialog-title');
+    modal.setAttribute('aria-describedby', 'photo-dialog-caption');
+    modal.innerHTML = '<header><h2 id="photo-dialog-title"></h2><button type="button" class="photo-dialog-close" autofocus>Cerrar ×</button></header><div class="photo-dialog-view"></div><p class="photo-dialog-caption" id="photo-dialog-caption"></p>';
+    document.body.appendChild(modal);
+    var photoReturnFocus;
+    var previousOverflow;
+    photoTriggers.forEach(function (trigger) {
+      trigger.addEventListener('click', function () {
+        var figure = trigger.closest('figure');
+        photoReturnFocus = trigger;
+        modal.querySelector('h2').textContent = figure.querySelector('figcaption strong').textContent;
+        modal.querySelector('.photo-dialog-caption').textContent = figure.querySelector('figcaption p').textContent;
+        var enlarged = trigger.querySelector('svg').cloneNode(true);
+        var crop = enlarged.querySelector('clipPath');
+        if (crop) {
+          crop.id += '-expanded';
+          enlarged.querySelector('image').setAttribute('clip-path', 'url(#' + crop.id + ')');
+        }
+        modal.querySelector('.photo-dialog-view').replaceChildren(enlarged);
+        previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = 'hidden';
+        modal.showModal();
+      });
+    });
+    modal.querySelector('button').addEventListener('click', function () { modal.close(); });
+    modal.addEventListener('click', function (event) {
+      if (event.target !== modal) return;
+      var rect = modal.getBoundingClientRect();
+      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) modal.close();
+    });
+    modal.addEventListener('close', function () {
+      document.body.style.overflow = previousOverflow;
+      if (photoReturnFocus) photoReturnFocus.focus({ preventScroll: true });
+    });
+  }
   // Explicaciones del recorrido, basadas en los procedimientos de cada puesto.
   var stageData = [
     ['Autorización', 'Es la aprobación que permite empezar a preparar un pedido. La Encargada confirma esa aprobación, busca e imprime la nota de pedido (NP) y entrega la hoja al equipo.', 'Administración, Gerencia o Dirección aprueban; la Encargada confirma y organiza.', 'No se empieza a preparar sin aprobación. La hoja se entrega con el esquema anotado y los pedidos ordenados si hay prioridades.', 'valentina.html#apertura'],
