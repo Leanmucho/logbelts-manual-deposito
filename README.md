@@ -16,7 +16,9 @@ Cada proceso tiene un resumen simple con secuencia ilustrada y un detalle a fond
 
 Se incorporaron 15 fotos de la carpeta aportada el 08/10/2026 en 15 tareas de las tres guías. Se omitió la segunda toma del sector de pedidos pendientes porque repite el mismo ejemplo. Los nombres originales y los encuadres se registran en `assets/deposito/encuadres.json`.
 
-Los recortes se aplican en la presentación mediante SVG y un área de recorte explícita; las fotos originales se conservan sin reconstrucción ni retoque. El visor amplía el mismo encuadre y se cierra con el botón, Escape o el fondo. Estos recortes visuales no anonimizan el archivo original: la hoja completa permanece en el recurso local. Esta revisión está preparada para vista previa local.
+Los recortes de presentación usan SVG. Las fotos con documentación, etiquetas de destinatarios, pantallas o personas se reemplazaron por versiones de referencia editadas y anonimizadas: los datos y rostros se ocultan en los píxeles del raster, no mediante CSS ni máscaras reversibles. Cada SVG de reemplazo contiene únicamente ese raster editado, sin el archivo original ni metadatos. Son referencias ilustrativas editadas con IA, no registros documentales ni fuentes para leer códigos o cantidades. El visor amplía el mismo encuadre y se cierra con el botón, Escape o el fondo.
+
+Advertencia: esta sustitución retira los originales sensibles de la versión actual, pero no borra copias de commits anteriores, cachés ni clones. La historia del repositorio no fue reescrita. No cargar nuevos documentos o etiquetas reales sin anonimizar.
 
 ## Servidor local
 
